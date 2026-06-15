@@ -1,0 +1,14 @@
+# KiCad local history / autosave
+.history/
+*-backups/
+*.lck
+~*
+
+# KiCad cache and backups
+*-cache*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+
+# OS
+.DS_Store
