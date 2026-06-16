@@ -495,6 +495,26 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 1,
+        "name": "LINE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 2,
+        "name": "NEUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -502,7 +522,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "LINE",
+        "pattern": "/AC_L"
+      },
+      {
+        "netclass": "LINE",
+        "pattern": "<NO NET>"
+      },
+      {
+        "netclass": "NEUT",
+        "pattern": "<NO NET>"
+      },
+      {
+        "netclass": "LINE",
+        "pattern": "LINE"
+      },
+      {
+        "netclass": "NEUT",
+        "pattern": "NEUT"
+      },
+      {
+        "netclass": "LINE",
+        "pattern": "/LINE_IN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
