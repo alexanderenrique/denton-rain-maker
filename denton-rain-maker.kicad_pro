@@ -599,22 +599,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -668,7 +668,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -725,7 +725,7 @@
         "uuid": "63428df5-db84-42ba-8e0d-8c79f5e81619"
       }
     ],
-    "used_designators": "J2,C10,C13,#PWR4,#PWR6,U1-2,F1,R9",
+    "used_designators": "C14,L2",
     "variants": []
   },
   "sheets": [
